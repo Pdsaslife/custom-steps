@@ -1,5 +1,6 @@
-/********************************************************************************************
-Purpose: To create a custom step that can generate SAS log and txt file as a final production run
+/******************************************************************************************************
+
+Purpose: To create a custom step that can generate SAS log and txt file as a final production batch run
 
 By: Pritesh Desai
 
@@ -9,7 +10,9 @@ Modification:
 *..SAS 9 and SAS Viya compatible
 *..Use the code stand-alone or use it as a custom step in your viya environment
 *..Use it in EG or a flow in sas studio
-*********************************************************************************************/
+
+
+********************************************************************************************************/
 
 /* SAS templated code goes here */
 
