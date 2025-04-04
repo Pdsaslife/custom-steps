@@ -9,7 +9,11 @@ By: Pritesh Desai
 
 Date: Apr 3rd 2025
 
-Modification: *..SAS 9 and SAS Viya compatible *..Use the code stand-alone or use it as a custom step in your viya environment *..Use it in EG or a flow in sas studio
+Modification: 
+
+*..SAS 9 and SAS Viya compatible 
+*..Use the code stand-alone or use it as a custom step in your viya environment 
+*..Use it in EG or a flow in sas studio
 
 ********************************************************************************************************/
 
