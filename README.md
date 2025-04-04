@@ -1,7 +1,6 @@
 ![image](https://github.com/user-attachments/assets/8428dcc2-2fab-4489-ac4e-8d538fc3305e)
 
 
-
 /******************************************************************************************************
 
 Purpose: To create a custom step that can generate SAS log and txt file as a final production batch run
@@ -10,19 +9,13 @@ By: Pritesh Desai
 
 Date: Apr 3rd 2025
 
-Modification: 
-*..SAS 9 and SAS Viya compatible
-*..Use the code stand-alone or use it as a custom step in your viya environment
-*..Use it in EG or a flow in sas studio
-
+Modification: *..SAS 9 and SAS Viya compatible *..Use the code stand-alone or use it as a custom step in your viya environment *..Use it in EG or a flow in sas studio
 
 ********************************************************************************************************/
 
 /* SAS templated code goes here */
 
 %let folder_path=&folder_path;
-
-*options noxwait noxsync; /* Allow batch execution */
 
 /* Open directory and read file names */
 
@@ -65,3 +58,11 @@ data _null_;
         '%nrstr(proc printto; run;)'
     ));
 run;
+
+
+
+
+
+
+
+
